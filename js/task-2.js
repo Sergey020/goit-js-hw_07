@@ -42,3 +42,4 @@ console.log(imageGallery);
 const imageEl = images.map(image => `<li><img src = ${image.url} alt = ${image.alt}/></li>`).join("");
 imageGallery.innerHTML = imageEl;
 
+
